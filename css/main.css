@@ -1,0 +1,88 @@
+@font-face {
+   font-family: 'Grotesque MT Std';
+   src: url('GrotesqueMTStd-Bold.woff2') format('woff2'),
+       url('GrotesqueMTStd-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+   background-color: #FFFFFB;
+   overflow: hidden;
+   font-family: 'GrotesqueMTStd-Bold';
+   color: #222222;
+   line-height: 1;
+   font-size: 14px;
+   text-transform: uppercase;
+   color: #222222;
+}
+
+a {
+   text-decoration: none;
+   color: #222222;
+   pointer-events: all;
+   z-index: 10;
+}
+
+.show {
+   display: block;
+}
+
+.none {
+   display: none;
+}
+
+.images-container {
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+   height: 100vh;
+   align-items: center;
+}
+
+img {
+   width: auto;
+   max-height: 75vh;
+}
+
+.hover-grid {
+   display: grid;
+   grid-template-columns: repeat(21, 1fr);
+   grid-template-rows: auto;
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.text {
+   position: absolute;
+   z-index: 10;
+   top: 0;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   width: 100vw;
+   align-items: center;
+   justify-content: space-between;
+   pointer-events: none;
+}
+
+.text > * {
+   padding: 42px;
+}
+
+@media (max-width: 768px) {
+   img {
+      max-height: 50vh;
+   }
+}
+
+@media (max-width: 500px) {
+   img {
+      max-height: 30vh;
+   }
+}
