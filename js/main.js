@@ -1,5 +1,5 @@
 let image = document.querySelector('#img');
-let imageNo = 0;
+let imageNo = 1;
 
 let delay = 100;
 
