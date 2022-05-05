@@ -1,7 +1,7 @@
 let image = document.querySelector('#img');
 let imageNo = 1;
 
-let delay = 100;
+let delay = 400;
 
 mouseEntered = false;
 
@@ -47,7 +47,7 @@ function step() {
       updateImage(imageNo);
       imageNo++;
     
-      if (imageNo <= 84) {
+      if (imageNo <= 65) {
          setTimeout(function() {
             window.requestAnimationFrame(step);
          }, delay)
