@@ -43,7 +43,7 @@ a {
 
 img {
    width: auto;
-   max-height: 75vh;
+   max-height: 65vh;
 }
 
 .hover-grid {
@@ -69,6 +69,11 @@ img {
    align-items: center;
    justify-content: space-between;
    pointer-events: none;
+}
+
+.logo svg {
+   max-width: 200px;
+   height: auto;
 }
 
 .text > * {

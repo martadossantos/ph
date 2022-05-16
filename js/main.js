@@ -34,7 +34,7 @@ image.addEventListener('ontouchend', function() {
 
 
 function updateImage(imageNo) {
-   let image_url = '/assets/images/0'+imageNo+'.jpg';
+   let image_url = '/assets/images/'+imageNo+'.jpg';
 
    image.setAttribute('src', image_url)
    
@@ -47,7 +47,7 @@ function step() {
       updateImage(imageNo);
       imageNo++;
     
-      if (imageNo <= 65) {
+      if (imageNo <= 57) {
          setTimeout(function() {
             window.requestAnimationFrame(step);
          }, delay)
