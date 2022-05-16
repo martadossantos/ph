@@ -91,8 +91,7 @@ img {
       max-height: 30vh;
    }
    
-   
-   body {
-      padding-bottom: 60px;
+   .images-container {
+      height: 90vh;
    }
 }
