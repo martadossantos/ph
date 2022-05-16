@@ -10,12 +10,13 @@
 body {
    background-color: #FFFFFB;
    overflow: hidden;
-   font-family: 'GrotesqueMTStd-Bold';
+   font-family: 'GrotesqueMTStd-Bold', sans-serif;
    color: #222222;
    line-height: 1;
    font-size: 14px;
    text-transform: uppercase;
    color: #222222;
+   font-weight: 700;
 }
 
 a {
