@@ -1,16 +1,7 @@
-@font-face {
-   font-family: 'Grotesque MT Std';
-   src: url('GrotesqueMTStd-Bold.woff2') format('woff2'),
-       url('GrotesqueMTStd-Bold.woff') format('woff');
-   font-weight: bold;
-   font-style: normal;
-   font-display: swap;
-}
-
 body {
    background-color: #FFFFFB;
    overflow: hidden;
-   font-family: 'GrotesqueMTStd-Bold', sans-serif;
+   font-family: GrotesqueMTStd-Bold, sans-serif;
    color: #222222;
    line-height: 1;
    font-size: 14px;

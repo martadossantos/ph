@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4888323, 2022-05-27T07:36:49-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: GrotesqueMTStd by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/grotesque-mt/std-roman/
+ * 
+ * Webfont: GrotesqueMTStd-Bold by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/grotesque-mt/std-bold/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2015 The Monotype Corporation. All rights reserved.
+ * 
+ * © 2022 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/4a9703");
+  
+@font-face {
+  font-family: "GrotesqueMTStd";
+  src: url('webFonts/GrotesqueMTStd/font.woff2') format('woff2'), url('webFonts/GrotesqueMTStd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "GrotesqueMTStd-Bold";
+  src: url('webFonts/GrotesqueMTStdBold/font.woff2') format('woff2'), url('webFonts/GrotesqueMTStdBold/font.woff') format('woff');
+}
+
