@@ -86,4 +86,8 @@ img {
    .images-container {
       height: 90vh;
    }
+
+   .logo svg {
+      max-width: 275px;
+   }
 }

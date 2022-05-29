@@ -26,10 +26,20 @@
   
 @font-face {
   font-family: "GrotesqueMTStd";
-  src: url('webFonts/GrotesqueMTStd/font.woff2') format('woff2'), url('webFonts/GrotesqueMTStd/font.woff') format('woff');
+  src: url('/assets/fonts/GrotesqueMTStd.eot');
+  src: url('/assets/fonts/GrotesqueMTStd.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/GrotesqueMTStd.woff2') format('woff2'),
+      url('/assets/fonts/GrotesqueMTStd.woff') format('woff'),
+      url('/assets/fonts/GrotesqueMTStd.ttf') format('truetype'),
+      url('/assets/fonts/GrotesqueMTStd.svg#GrotesqueMTStd') format('svg');
 }
 @font-face {
   font-family: "GrotesqueMTStd-Bold";
-  src: url('webFonts/GrotesqueMTStdBold/font.woff2') format('woff2'), url('webFonts/GrotesqueMTStdBold/font.woff') format('woff');
+  src: url('/assets/fonts/GrotesqueMTStd-Bold.eot');
+  src: url('/assets/fonts/GrotesqueMTStd-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/GrotesqueMTStd-Bold.woff2') format('woff2'),
+      url('/assets/fonts/GrotesqueMTStd-Bold.woff') format('woff'),
+      url('/assets/fonts/GrotesqueMTStd-Bold.ttf') format('truetype'),
+      url('/assets/fonts/GrotesqueMTStd-Bold.svg#GrotesqueMTStd-Bold') format('svg');
 }
 

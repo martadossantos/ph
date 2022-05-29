@@ -1,5 +1,4 @@
 let image = document.querySelector('#img');
-let imageNo = 1;
 
 let delay = 600;
 
@@ -17,7 +16,7 @@ image.addEventListener('ontouchstart', function() {
 image.addEventListener('mouseleave', function() {
    mouseEntered = false;
    
-   setTimeout(function() {
+   setInterval(function() {
       window.requestAnimationFrame(step);
    }, delay)
 
@@ -26,17 +25,22 @@ image.addEventListener('mouseleave', function() {
 image.addEventListener('ontouchend', function() {
    mouseEntered = false;
    
-   setTimeout(function() {
+   setInterval(function() {
       window.requestAnimationFrame(step);
    }, delay)
 
 })
 
 
-function updateImage(imageNo) {
+function updateImage() {
+
+   let imageNo = Math.floor(Math.random() * 57) + 1;
+
    let image_url = '/assets/images/'+imageNo+'.jpg';
 
-   image.setAttribute('src', image_url)
+   image.setAttribute('src', image_url);
+
+
    
 }
 
@@ -44,27 +48,15 @@ function step() {
 
    if (mouseEntered === false) {
 
-      updateImage(imageNo);
-      imageNo++;
-    
-      if (imageNo <= 57) {
-         setTimeout(function() {
-            window.requestAnimationFrame(step);
-         }, delay)
-        
-      } else {
-         imageNo = 1;
-         
-         setTimeout(function() {
-            window.requestAnimationFrame(step);
-         }, delay)
-      }
+      updateImage();
+      // imageNo++;
+   
 
    }
 
 }
 
-setTimeout(function() {
+setInterval(function() {
    window.requestAnimationFrame(step);
 }, delay)
 
