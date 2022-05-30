@@ -34,14 +34,12 @@ image.addEventListener('ontouchend', function() {
 
 function updateImage() {
 
-   let imageNo = Math.floor(Math.random() * 57) + 1;
+   let imageNo = Math.floor(Math.random() * 60) + 1;
 
    let image_url = '/assets/images/'+imageNo+'.jpg';
 
    image.setAttribute('src', image_url);
 
-
-   
 }
 
 function step() {
@@ -49,9 +47,6 @@ function step() {
    if (mouseEntered === false) {
 
       updateImage();
-      // imageNo++;
-   
-
    }
 
 }
