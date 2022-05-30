@@ -1,6 +1,6 @@
 let image = document.querySelector('#img');
 
-let delay = 600;
+let delay = 1000;
 
 mouseEntered = false;
 
